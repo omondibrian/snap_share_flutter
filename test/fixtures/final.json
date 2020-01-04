@@ -1,0 +1,26 @@
+[
+    { 
+      "text": "testing",
+      "isLiked": true,
+      "time": "12:00 am",
+      "unread": false,
+      "senderId":0,
+      "id":"1"
+    },
+    { 
+      "text": "testing1",
+      "isLiked": true,
+      "time": "12:10 am",
+      "unread": true,
+      "senderId":1,
+      "id":"2"
+    },
+    { 
+      "text": "testing2",
+      "isLiked": false,
+      "time": "12:20 am",
+      "unread": false,
+      "senderId":2,
+      "id":"3"
+    }
+]

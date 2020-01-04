@@ -1,0 +1,32 @@
+[
+        {   
+            "id": "0",
+            "imageUrl": "assets/images/gondola.jpg",
+            "name": "test user"
+        },
+        {   
+            "id": "1",
+            "imageUrl": "assets/images/murano.jpg",
+            "name": "sam"
+        },
+        {   
+            "id": "2",
+            "imageUrl": "assets/images/hotel1.jpg",
+            "name": "james"
+        },
+        {   
+            "id": "3",
+            "imageUrl":"assets/images/paris.jpg",
+            "name": "atuti"
+        },
+        {   
+            "id": "4",
+            "imageUrl": "assets/images/santorini.jpg",
+            "name":"olivia"
+        },
+        {   
+            "id": "5",
+            "imageUrl": "assets/images/newyork.jpg",
+            "name":"loyse"
+        }
+    ]

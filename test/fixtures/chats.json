@@ -1,0 +1,77 @@
+{
+    "data":[
+        {
+            "id":1,
+           " sender":{   
+                "id": 0,
+                "imageUrl": "assets/images/gondola.jpg",
+                "name": "Brian Omondi"
+            },
+            "text": "morning",
+            "isLiked": true,
+            "time": "12:00 am",
+            "unread": false
+        },
+        {
+            "id":2,
+           " sender":{   
+                "id": 1,
+                "imageUrl": "assets/images/murano.jpg",
+                "name": "sam"
+            },
+            "text": "hello ni sam",
+            "isLiked": false,
+            "time": "12:00 am",
+            "unread": true
+        },
+        {
+            "id":3,
+           " sender":{   
+                "id": 2,
+                "imageUrl": "assets/images/hotel1.jpg",
+                "name": "james"
+            },
+            "text": "mongo ina instaliwa aje kwa windows",
+            "isLiked": true,
+            "time": "12:00 am",
+            "unread": false
+        },
+        {
+            "id":4,
+           " sender":{   
+                "id": 3,
+                "imageUrl":"assets/images/paris.jpg",
+                "name": "atuti"
+            },
+            "text": "cat ni saa ngapi",
+            "isLiked": false,
+            "time": "12:00 am",
+            "unread": true
+        },
+        {
+            "id":5,
+           " sender":{   
+                "id": 4,
+                "imageUrl": "assets/images/santorini.jpg",
+                "name":"olivia"
+            },
+            "text": "Long time",
+            "isLiked": true,
+            "time": "12:00 am",
+            "unread": false
+        },
+        {
+            "id":6,
+           " sender":{   
+                "id": 5,
+                "imageUrl": "assets/images/newyork.jpg",
+                "name":"loyse"
+            },
+            "text": "ona huyuu!!!",
+            "isLiked": false,
+            "time": "12:00 am",
+            "unread": true
+        }
+    ]
+
+}
