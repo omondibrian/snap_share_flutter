@@ -22,11 +22,14 @@ void main(){
      });
   });
   group('toJson', (){
+  final  tUserModel = UserModel(
+      id:'0',name:"test user",imageUrl: "assets/images/gondola.jpg"
+  );
   test('should return a JSON map containing the proper data',(){
-      
+      // final tuser = parseUser(fixture('user.json'));
         //arrange 
         final expectedMap = {
-                "id": "0",
+                "id": '0',
                 "imageUrl": "assets/images/gondola.jpg",
                 "name": "test user"
         };
@@ -50,13 +53,13 @@ test('should return valid json', () {
 group('parseUser',(){
   test('should return a valid chatModel', () {
     // arrange
-    final tChat ='''{ 
+    final tUser ='''{ 
                 "id": "0",
                 "imageUrl": "assets/images/gondola.jpg",
                 "name": "test user"
     }''';
     //assert
-    expect(parseUser(tChat).id,'0');
+    expect(parseUser(tUser).id,'0');
   });
 });
 }
