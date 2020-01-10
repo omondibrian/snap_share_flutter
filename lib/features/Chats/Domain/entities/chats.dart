@@ -16,5 +16,8 @@ class Chats  extends Equatable{
     @required this.text, 
     @required this.isLiked, 
     @required this.time,
-    @required this.id}):super([text,isLiked,time]);
+    @required this.id});
+
+  @override
+  List<Object> get props => [text,isLiked,time];
 }

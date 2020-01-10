@@ -8,8 +8,10 @@ class UserModel extends User {
     @required String id,
     @required String imageUrl, 
     @required String name,
-  }):super(id:id,imageUrl:imageUrl,name:name);
- 
+  });
+   @override
+  List<Object> get props => [id,imageUrl,name];
+
   factory UserModel.fromJson(Map<String,dynamic> json){
         return UserModel(
       id: json['id'],
@@ -25,6 +27,8 @@ class UserModel extends User {
         'name':name,
     };
   }
+
+
 }
 
 ///parse a json list and return a   List<UserModel> 

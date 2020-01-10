@@ -20,5 +20,8 @@ class LikeSpecificChat extends Usecase<bool,Params> {
 class Params extends Equatable {
   final String id;
 
-  Params(this.id):super([id]);
+  Params(this.id):super();
+
+  @override
+  List<Object> get props => [id];
 }

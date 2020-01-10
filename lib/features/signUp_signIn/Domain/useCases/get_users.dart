@@ -20,5 +20,8 @@ class GetUsers implements Usecase<List<User>,Params> {
 class Params extends Equatable{
   final List<String> userIds;
 
-  Params(this.userIds):super([userIds]);
+  Params(this.userIds);
+
+  @override
+  List<Object> get props => [userIds];
 }

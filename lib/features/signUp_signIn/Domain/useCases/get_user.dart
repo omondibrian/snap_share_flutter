@@ -15,6 +15,9 @@ class GetUser extends Equatable implements Usecase<User,Noparams> {
         return await repository.getUser();
   }
 
+  @override
+  List<Object> get props => null;
+
 
 
   

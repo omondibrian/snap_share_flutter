@@ -26,6 +26,10 @@ class GetSpecificChart implements Usecase<List<Chats>,Params> {
  class Params extends Equatable {
    final String id;
 
-  Params({ @required this.id}):super([id]);
+  Params({ @required this.id}):super();
+
+  @override
+ 
+  List<Object> get props => [id];
    
  }

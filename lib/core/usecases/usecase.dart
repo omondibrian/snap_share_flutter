@@ -5,4 +5,8 @@ import 'package:test_flutter/core/errors/failures.dart';
 abstract class Usecase<Type,Params> {
   Future<Either<Failure,Type>> call(Params params);
 }
-class Noparams extends Equatable{}
+class Noparams extends Equatable{
+  @override
+  // TODO: implement props
+  List<Object> get props => null;
+}

@@ -5,7 +5,11 @@ class User extends Equatable{
   final String name;
   final String imageUrl;
 
-  User({this.id, this.name, this.imageUrl}):super([id,name,imageUrl]);
+  User({this.id, this.name, this.imageUrl});
+
+  @override
+  
+  List<Object> get props => [id,name,imageUrl];
 
 }
 class Auth extends User {

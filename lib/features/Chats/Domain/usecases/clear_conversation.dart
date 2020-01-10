@@ -18,5 +18,8 @@ class ClearConversation implements Usecase<bool,Params> {
 class Params extends Equatable {
   final String id;
 
-  Params(this.id):super([id]);
+  Params(this.id);
+
+  @override
+  List<Object> get props => [id];
 }

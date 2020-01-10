@@ -21,5 +21,7 @@ class Params extends Equatable {
   final ChatsModel chat;
 
   Params(this.chat);
+  @override
+  List<Object> get props => [chat];
 
 }
