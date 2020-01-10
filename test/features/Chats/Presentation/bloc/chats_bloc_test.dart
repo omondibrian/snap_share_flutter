@@ -8,6 +8,7 @@ import 'package:test_flutter/features/Chats/Domain/usecases/get_all_charts.dart'
 import 'package:test_flutter/features/Chats/Domain/usecases/like_specific_chat.dart';
 import 'package:test_flutter/features/Chats/Domain/usecases/send_chat.dart';
 import 'package:test_flutter/features/Chats/Presentation/bloc/bloc.dart';
+import 'package:test_flutter/features/signUp_signIn/Domain/entities/Users.dart';
 import 'package:test_flutter/features/signUp_signIn/Domain/useCases/get_users.dart';
 
 class MockGetUsers extends Mock implements GetUsers{}
@@ -48,6 +49,11 @@ void main(){
 
   test('initial state should be empty', () {
     expect(bloc.initialState, equals(Empty()));
+  });
+  group('GetSpecificChat', () {
+    final tId = '1';
+    final tUser = User(id: '0',imageUrl: "assets/images/gondola.jpg" ,name: 'test user') ;
+    final List<User> tUsers = [tUser,tUser];
   });
 
 

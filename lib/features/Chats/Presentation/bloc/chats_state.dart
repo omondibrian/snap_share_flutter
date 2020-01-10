@@ -6,7 +6,7 @@ import 'package:test_flutter/features/signUp_signIn/Domain/entities/Users.dart';
  abstract class ChatsState extends Equatable{
    ChatsState([List props = const <dynamic>[]]);
 
- }
+ }   
 class Empty extends ChatsState {
   @override
   List<Object> get props => null;

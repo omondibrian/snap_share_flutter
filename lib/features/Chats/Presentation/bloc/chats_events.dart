@@ -5,7 +5,7 @@ import 'package:meta/meta.dart';
    ChatsEvents([List props = const <dynamic>[]]);
 
  }
-
+ 
  class FetchFavorite extends ChatsEvents{
   @override
   List<Object> get props => null;

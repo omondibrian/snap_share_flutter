@@ -33,7 +33,6 @@ class ChatsBloc extends Bloc<ChatsEvents,ChatsState>{
              assert(sendChart != null),
              assert(inputConverter != null);
 
-
   @override
   ChatsState get initialState => Empty();
 
